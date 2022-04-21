@@ -14,7 +14,7 @@
 }
 html {
   font-family: "Open Sans";
-  font-size: 24px;
+  font-size: 1.5vw;
   scroll-behavior: smooth;
 }
 section {
@@ -31,13 +31,12 @@ section img{
   height: auto;
 }
 #logo{
-  /*font-family: "Quattrocento Sans";*/
-  font-size: 48px;
-  padding: 10px;
-  color: rgb(68, 114, 196)
+  font-size: 2vw;
+  padding: 0.5vw;
+  color: rgb(68, 114, 196);
 }
 .dash{
-  color: rgb(255,0,0)
+  color: rgb(255,0,0);
 }
 
 header {
@@ -50,7 +49,7 @@ nav .container {
   max-width: 1500px;
   margin: 0 auto;
   text-align: center;
-  padding: 10px;
+  padding: 0.5vw;
 }
 nav .container ul li {
   display: inline-block;
@@ -58,7 +57,7 @@ nav .container ul li {
 nav .container ul li a {
   display: inline-block;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 0.5vw 1vw;
   color: black;
 }
 nav .container ul li.active {
