@@ -33,6 +33,7 @@ section img{
   height: auto;
 }
 #logo{
+  display: inline;
   font-size: 2vw;
   padding: 0.5vw;
   color: rgb(68, 114, 196);
@@ -46,6 +47,7 @@ header {
   top: 0;
   background-color: white;
 }
+
 nav .container {
   width: 90%;
   max-width: 1500px;
