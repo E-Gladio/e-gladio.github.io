@@ -1,0 +1,70 @@
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans");
+
+@media only screen and (orientation:portrait){
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Open Sans";
+  font-size: 24px;
+  scroll-behavior: smooth;
+}
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+section img{
+  width: 90vw;
+  height: auto;
+}
+#logo{
+  /*font-family: "Quattrocento Sans";*/
+  font-size: 48px;
+  padding: 10px;
+  color: rgb(68, 114, 196)
+}
+.dash{
+  color: rgb(255,0,0)
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+nav .container {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+nav .container ul li {
+  display: inline-block;
+}
+nav .container ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+}
+nav .container ul li.active {
+  background-color: crimson;
+  transition: 0.3s ease background-color;
+}
+nav .container ul li.active a {
+  color: rgb(255, 255, 255);
+}
